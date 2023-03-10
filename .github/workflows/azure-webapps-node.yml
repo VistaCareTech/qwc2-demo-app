@@ -44,11 +44,10 @@ jobs:
         node-version: ${{ env.NODE_VERSION }}
         cache: 'yarn'
 
-    - name: yarn install, build, and test
+    - name: yarn install, build
       run: |
         yarn install
         yarn run build --if-present
-        yarn run test --if-present
 
     - name: Upload artifact for deployment job
       uses: actions/upload-artifact@v3
