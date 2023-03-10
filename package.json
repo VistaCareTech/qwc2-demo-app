@@ -28,7 +28,7 @@
     },
     "scripts": {
         "prod": "npm run tsupdate && npm run themesconfig && npm run iconfont && webpack --mode production --progress",
-        "start": "npm run tsupdate && npm run themesconfig && npm run iconfont && webpack serve --mode development --progress --host va-engineering-geoviewer.azurewebsites.net --port 8080",
+        "start": "npm run tsupdate && npm run themesconfig && npm run iconfont && webpack serve --mode development --progress --port 8080",
         "iconfont": "node qwc2/scripts/makeIconkit.js",
         "themesconfig": "node qwc2/scripts/themesConfig.js",
         "tsupdate": "node qwc2/scripts/updateTranslations.js",
