@@ -44,9 +44,6 @@ jobs:
         node-version: ${{ env.NODE_VERSION }}
         cache: 'yarn'
 
-    - name: Install babel
-      run: npm install --save-dev @babel/preset-react
-
     - name: Install Dependencies
       run: yarn install
 
