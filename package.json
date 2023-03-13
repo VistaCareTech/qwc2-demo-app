@@ -10,6 +10,7 @@
         "qwc2"
     ],
     "devDependencies": {
+        "@babel/preset-env": "^7.20.2",
         "babel-loader": "9.1.2",
         "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
         "clean-webpack-plugin": "4.0.0",
