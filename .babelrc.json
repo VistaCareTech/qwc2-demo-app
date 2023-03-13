@@ -7,7 +7,7 @@
         [
             "@babel/preset-env",
             {
-                "modules": false
+                "modules": true
             }
         ],
         "@babel/preset-react"
