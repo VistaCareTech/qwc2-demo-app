@@ -45,7 +45,7 @@ jobs:
         cache: 'yarn'
 
     - name: Install babel
-      run: yarn add @babel/plugin-syntax-jsx --dev
+      run: npm install --save-dev @babel/preset-react
 
     - name: Install Dependencies
       run: yarn install
