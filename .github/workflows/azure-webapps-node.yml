@@ -44,6 +44,9 @@ jobs:
         node-version: ${{ env.NODE_VERSION }}
         cache: 'yarn'
 
+    - name: Install babel
+      run: yarn add @babel/plugin-syntax-jsx --dev
+
     - name: Install Dependencies
       run: yarn install
 
