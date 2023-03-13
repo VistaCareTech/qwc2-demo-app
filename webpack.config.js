@@ -89,10 +89,15 @@ module.exports = (env, argv) => {
                     type: 'asset/inline'
                 },
                 {
-                    test: /\.(js|jsx)$/,
-                    exclude: /(node_modules|bower_components)/,
-                    loader: 'babel-loader',
-                    options: { presets: ['@babel/env','@babel/preset-react'] },
+                    test: /\.jsx?$/,
+                    exclude: /node_modules(\\|\/)(?!qwc2)/,
+                    use: {
+                        loader: 'babel-loader',
+                        options: { 
+                            presets: ['@babel/env','@babel/preset-react'],
+                            babelrcRoots: ['.', path.resolve(__dirname, 'node_modules', 'qwc2')]
+                            }
+                    }
                 },
                 {
                     test: /(.mjs|.js)$/,
