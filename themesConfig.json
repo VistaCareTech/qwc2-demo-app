@@ -1,433 +1,52 @@
 {
     "themes": {
-      "title": "root",
-      "subdirs": [
-      ],
+      "title":"Rogers",
       "items": [
         {
           "url": "http://20.104.133.214/cgi-bin/qgis_mapserv.fcgi?MAP=/home/qgis/projects/postgres.qgs&",
-          "id": "rogers",
-          "name": "rogers",
-          "title": "rogers",
-          "description": "",
-          "attribution": {
-            "Title": "Rogers project",
-            "OnlineResource": "http://20.104.133.214/cgi-bin/qgis_mapserv.fcgi?MAP=/home/qgis/projects/postgres.qgs&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities"
-          },
-          "abstract": "",
-          "keywords": "",
-          "onlineResource": "http://20.104.133.214/cgi-bin/qgis_mapserv.fcgi?MAP=/home/qgis/projects/postgres.qgs&",
-          "contact": {
-            "person": "",
-            "organization": "",
-            "position": "",
-            "phone": "",
-            "email": ""
-          },
-          "availableFormats": [
-            "image/jpeg",
-            "image/png",
-            "image/png; mode=16bit",
-            "image/png; mode=8bit",
-            "image/png; mode=1bit",
-            "application/dxf"
-          ],
-          "version": "1.3.0",
-          "infoFormats": [
-            "text/plain",
-            "text/html",
-            "text/xml",
-            "application/vnd.ogc.gml",
-            "application/json",
-            "application/geo+json"
-          ],
-          "bbox": {
-            "crs": "EPSG:4326",
-            "bounds": [
-              -179.999996,
-              -89,
-              179.999996,
-              89
-            ]
-          },
-          "initialBbox": {
-            "crs": "EPSG:4326",
-            "bounds": [
-              -66.787224,
-              46.791338,
-              -63.911306,
-              45.276079
-            ]
-          },
-          "printResolutions": [
-            300
-          ],
-          "sublayers": [
-            {
-              "name": "Tree Trimming",
-              "title": "Tree Trimming",
-              "geometryType": "Point",
-              "visibility": true,
-              "queryable": false,
-              "displayField": "name",
-              "opacity": 255,
-              "bbox": {
-                "crs": "EPSG:4326",
-                "bounds": [
-                  -66.915886,
-                  47.078922,
-                  -64.60142,
-                  45.042981
-                ]
-              },
-              "dimensions": []
-            },
-            {
-              "name": "Cell Towers",
-              "title": "Cell Towers",
-              "geometryType": "Point",
-              "visibility": true,
-              "queryable": false,
-              "displayField": "name",
-              "opacity": 255,
-              "bbox": {
-                "crs": "EPSG:4326",
-                "bounds": [
-                  -65.077169,
-                  46.050131,
-                  -64.644722,
-                  45.899477
-                ]
-              },
-              "dimensions": []
-            },
-            {
-              "name": "OLT",
-              "title": "OLT",
-              "geometryType": "Point",
-              "visibility": true,
-              "queryable": false,
-              "displayField": "name",
-              "opacity": 255,
-              "bbox": {
-                "crs": "EPSG:4326",
-                "bounds": [
-                  -66.869309,
-                  47.042897,
-                  -64.589219,
-                  45.056302
-                ]
-              },
-              "dimensions": []
-            },
-            {
-              "name": "LCPs",
-              "title": "LCPs",
-              "geometryType": "Point",
-              "visibility": true,
-              "queryable": false,
-              "displayField": "name",
-              "opacity": 255,
-              "bbox": {
-                "crs": "EPSG:4326",
-                "bounds": [
-                  -66.869309,
-                  47.042897,
-                  -64.589219,
-                  45.056302
-                ]
-              },
-              "dimensions": []
-            },
-            {
-              "name": "Slack",
-              "title": "Slack",
-              "geometryType": "Point",
-              "visibility": true,
-              "queryable": false,
-              "displayField": "name",
-              "opacity": 255,
-              "bbox": {
-                "crs": "EPSG:4326",
-                "bounds": [
-                  -66.869309,
-                  47.042897,
-                  -64.589219,
-                  45.056302
-                ]
-              },
-              "dimensions": []
-            },
-            {
-              "name": "Splices",
-              "title": "Splices",
-              "geometryType": "Point",
-              "visibility": true,
-              "queryable": false,
-              "displayField": "name",
-              "opacity": 255,
-              "bbox": {
-                "crs": "EPSG:4326",
-                "bounds": [
-                  -66.869309,
-                  47.042897,
-                  -64.589219,
-                  45.056302
-                ]
-              },
-              "dimensions": []
-            },
-            {
-              "name": "Poles",
-              "title": "Poles",
-              "geometryType": "Point",
-              "visibility": true,
-              "queryable": false,
-              "displayField": "name",
-              "opacity": 255,
-              "bbox": {
-                "crs": "EPSG:4326",
-                "bounds": [
-                  -66.869309,
-                  47.042897,
-                  -64.589219,
-                  45.056302
-                ]
-              },
-              "dimensions": []
-            },
-            {
-              "name": "MMP",
-              "title": "MMP",
-              "geometryType": "Point",
-              "visibility": true,
-              "queryable": false,
-              "displayField": "name",
-              "opacity": 255,
-              "bbox": {
-                "crs": "EPSG:4326",
-                "bounds": [
-                  -66.869309,
-                  47.042897,
-                  -64.589219,
-                  45.056302
-                ]
-              },
-              "dimensions": []
-            },
-            {
-              "name": "NB Civic Addresses - Verified",
-              "title": "NB Civic Addresses - Verified",
-              "geometryType": "Point",
-              "visibility": true,
-              "queryable": false,
-              "displayField": "name",
-              "opacity": 255,
-              "bbox": {
-                "crs": "EPSG:4326",
-                "bounds": [
-                  -66.869309,
-                  47.042897,
-                  -64.589219,
-                  45.056302
-                ]
-              },
-              "dimensions": []
-            },
-            {
-              "name": "Cables",
-              "title": "Cables",
-              "geometryType": "LineString",
-              "visibility": true,
-              "queryable": true,
-              "displayField": "name",
-              "opacity": 255,
-              "bbox": {
-                "crs": "EPSG:4326",
-                "bounds": [
-                  -66.920886,
-                  47.085329,
-                  -64.573319,
-                  45.039026
-                ]
-              },
-              "dimensions": []
-            },
-            {
-              "name": "Anchor",
-              "title": "Anchor",
-              "geometryType": "LineString",
-              "visibility": true,
-              "queryable": true,
-              "displayField": "name",
-              "opacity": 255,
-              "bbox": {
-                "crs": "EPSG:4326",
-                "bounds": [
-                  -66.920886,
-                  47.085329,
-                  -64.573319,
-                  45.039026
-                ]
-              },
-              "dimensions": []
-            },
-            {
-              "name": "Strand",
-              "title": "Strand",
-              "geometryType": "LineString",
-              "visibility": true,
-              "queryable": true,
-              "displayField": "name",
-              "opacity": 255,
-              "bbox": {
-                "crs": "EPSG:4326",
-                "bounds": [
-                  -66.920886,
-                  47.085329,
-                  -64.573319,
-                  45.039026
-                ]
-              },
-              "dimensions": []
-            },
-            {
-              "name": "Spans",
-              "title": "Spans",
-              "geometryType": "LineString",
-              "visibility": true,
-              "queryable": true,
-              "displayField": "name",
-              "opacity": 255,
-              "bbox": {
-                "crs": "EPSG:4326",
-                "bounds": [
-                  -66.920886,
-                  47.085329,
-                  -64.573319,
-                  45.039026
-                ]
-              },
-              "dimensions": []
-            },
-            {
-              "name": "NB Street Centerlines",
-              "title": "NB Street Centerlines",
-              "geometryType": "LineString",
-              "visibility": true,
-              "queryable": true,
-              "displayField": "name",
-              "opacity": 255,
-              "bbox": {
-                "crs": "EPSG:4326",
-                "bounds": [
-                  -66.920886,
-                  47.085329,
-                  -64.573319,
-                  45.039026
-                ]
-              },
-              "dimensions": []
-            },
-            {
-              "name": "Wire_Limits",
-              "title": "Wire_Limits",
-              "geometryType": "MultiPolygon",
-              "visibility": true,
-              "queryable": false,
-              "displayField": "name",
-              "opacity": 255,
-              "bbox": {
-                "crs": "EPSG:4326",
-                "bounds": [
-                  -180,
-                  -89.501386,
-                  180,
-                  83.634101
-                ]
-              },
-              "dimensions": []
-            },
-            {
-              "name": "Fiber Drops",
-              "title": "Fiber Drops",
-              "geometryType": "MultiPolygon",
-              "visibility": true,
-              "queryable": false,
-              "displayField": "name",
-              "opacity": 255,
-              "bbox": {
-                "crs": "EPSG:4326",
-                "bounds": [
-                  -180,
-                  -89.501386,
-                  180,
-                  83.634101
-                ]
-              },
-              "dimensions": []
-            },
-            {
-              "name": "FSA Boundaries",
-              "title": "FSA Boundaries",
-              "geometryType": "MultiPolygon",
-              "visibility": true,
-              "queryable": false,
-              "displayField": "name",
-              "opacity": 255,
-              "bbox": {
-                "crs": "EPSG:4326",
-                "bounds": [
-                  -180,
-                  -89.501386,
-                  180,
-                  83.634101
-                ]
-              },
-              "dimensions": []
-            },
-            {
-              "name": "OLT_Boundaries",
-              "title": "OLT Boundaries",
-              "geometryType": "MultiPolygon",
-              "visibility": true,
-              "queryable": false,
-              "displayField": "name",
-              "opacity": 255,
-              "bbox": {
-                "crs": "EPSG:4326",
-                "bounds": [
-                  -180,
-                  -89.501386,
-                  180,
-                  83.634101
-                ]
-              },
-              "dimensions": []
-            },
-            {
-              "name": "NB Property Boundaries",
-              "title": "NB Property Boundaries",
-              "geometryType": "MultiPolygon",
-              "visibility": true,
-              "queryable": false,
-              "displayField": "name",
-              "opacity": 255,
-              "bbox": {
-                "crs": "EPSG:4326",
-                "bounds": [
-                  -180,
-                  -89.501386,
-                  180,
-                  83.634101
-                ]
-              },
-              "dimensions": []
-            }
-          ],
-          "expanded": true,
-          "externalLayers": [],
-          "backgroundLayers": [
+          "attribution": "Rogers project",
+          "attributionUrl": "https://www.vistacaretech.com/",
+          "scales":[
+            15000000,
+            8000000,
+            4000000,
+            2000000,
+            1000000,
+            400000,
+            200000,
+            80000,
+            40000,
+            20000,
+            10000,
+            8000,
+            6000,
+            4000,
+            2000,
+            1000,
+            500,
+            250,
+            100
+        ],
+        "printScales":[
+            80000,
+            40000,
+            20000,
+            10000,
+            8000,
+            6000,
+            4000,
+            2000,
+            1000,
+            500,
+            250,
+            100
+        ],
+        "printResolutions":[
+            150,
+            300,
+            600
+        ],
+        "backgroundLayers": [
             {
               "name": "bluemarble",
               "printLayer": "bluemarble_bg",
@@ -437,74 +56,14 @@
               "name": "mapnik",
               "printLayer": "osm_bg"
             }
-          ],
-          "searchProviders": [
-            "coordinates",
-            "nominatim"
-          ],
-          "additionalMouseCrs": [],
-          "mapCrs": "EPSG:3857",
-          "print": [
-            {
-              "name": "A4 Landscape",
-              "map": {
-                "name": "map0",
-                "width": 220,
-                "height": 190
-              },
-              "labels": [
-                "user_text"
-              ]
-            }
-          ],
-          "drawingOrder": [
-            "OLT_Boundaries"
-          ],
-          "legendUrl": "http://20.104.133.214/cgi-bin/qgis_mapserv.fcgi?MAP=/home/qgis/projects/postgres.qgs",
-          "featureInfoUrl": "http://20.104.133.214/cgi-bin/qgis_mapserv.fcgi?MAP=/home/qgis/projects/postgres.qgs",
-          "printUrl": "http://20.104.133.214/cgi-bin/qgis_mapserv.fcgi?MAP=/home/qgis/projects/postgres.qgs",
-          "skipEmptyFeatureAttributes": true,
-          "editConfig": null,
-          "thumbnail": "img/mapthumbs/default.jpg"
-        }
-      ],
-      "defaultTheme": "rogers",
-      "defaultScales": [
-        15000000,
-        8000000,
-        4000000,
-        2000000,
-        1000000,
-        400000,
-        200000,
-        80000,
-        40000,
-        20000,
-        10000,
-        8000,
-        6000,
-        4000,
-        2000,
-        1000,
-        500,
-        250,
-        100
-      ],
-      "defaultPrintGrid": [
-        {
-          "s": 10000,
-          "x": 1000,
-          "y": 1000
-        },
-        {
-          "s": 1000,
-          "x": 100,
-          "y": 100
-        },
-        {
-          "s": 100,
-          "x": 10,
-          "y": 10
+        ],
+        "searchProviders": [
+          "coordinates",
+          "nominatim"
+        ],
+        "additionalMouseCrs": [],
+        "mapCrs": "EPSG:3857",
+        "thumbnail": "default.jpg"        
         }
       ],
       "externalLayers": [
@@ -795,7 +354,45 @@
           "attribution": {},
           "thumbnail": "img/mapthumbs/default.jpg"
         }
-      ],
-      "defaultWMSVersion": "1.3.0"
-    }
+      ]
+    },
+    "defaultScales": [
+      15000000,
+      8000000,
+      4000000,
+      2000000,
+      1000000,
+      400000,
+      200000,
+      80000,
+      40000,
+      20000,
+      10000,
+      8000,
+      6000,
+      4000,
+      2000,
+      1000,
+      500,
+      250,
+      100
+    ],
+    "defaultPrintGrid": [
+      {
+        "s": 10000,
+        "x": 1000,
+        "y": 1000
+      },
+      {
+        "s": 1000,
+        "x": 100,
+        "y": 100
+      },
+      {
+        "s": 100,
+        "x": 10,
+        "y": 10
+      }
+    ],
+    "defaultWMSVersion": "1.3.0"
   }
