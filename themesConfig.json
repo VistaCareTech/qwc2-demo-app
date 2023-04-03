@@ -3,7 +3,7 @@
       "title":"Rogers",
       "items": [
         {
-          "url": "http://20.104.133.214/cgi-bin/qgis_mapserv.fcgi?MAP=/home/qgis/projects/postgres.qgs&",
+          "url": "https://20.104.133.214cgi-bin/qgis_mapserv.fcgi?MAP=/home/qgis/projects/postgres.qgs&",
           "attribution": "Rogers project",
           "attributionUrl": "https://www.vistacaretech.com/",
           "scales":[
