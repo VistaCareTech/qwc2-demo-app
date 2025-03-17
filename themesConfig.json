@@ -3,7 +3,7 @@
       "title":"Rogers",
       "items": [
         {
-          "url": "https://geomapper.vistacaretech.com/cgi-bin/qgis_mapserv.fcgi?MAP=/home/qgis/projects/postgres.qgs&",
+          "url": "https://geomapper.vistacaretech.com/cgi-bin/qgis_mapserv.fcgi?MAP=/home/qgis/projects/world.qgs&",
           "attribution": "Rogers project",
           "attributionUrl": "https://www.vistacaretech.com/",
           "scales":[
