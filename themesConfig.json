@@ -1,10 +1,10 @@
 {
     "themes": {
-      "title":"Rogers",
+      "title":"Elgin",
       "items": [
         {
-          "url": "https://geomapper.vistacaretech.com/cgi-bin/qgis_mapserv.fcgi?MAP=/home/qgis/projects/world.qgs&",
-          "attribution": "Rogers project",
+          "url": "https://geomapper.vistacaretech.com/cgi-bin/qgis_mapserv.fcgi?MAP=/home/qgis/projects/elgin.qgs&",
+          "attribution": "Elgin project",
           "attributionUrl": "https://www.vistacaretech.com/",
           "scales":[
             15000000,
