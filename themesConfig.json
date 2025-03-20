@@ -3,7 +3,7 @@
       "title":"Elgin",
       "items": [
         {
-          "url": "https://geomapper.vistacaretech.com/cgi-bin/qgis_mapserv.fcgi?MAP=/home/qgis/projects/elginf.qgs&",
+          "url": "https://geomapper.vistacaretech.com/cgi-bin/qgis_mapserv.fcgi?MAP=/home/qgis/projects/elgin.qgs&",
           "attribution": "Elgin project",
           "attributionUrl": "https://www.vistacaretech.com/",
           "scales":[
