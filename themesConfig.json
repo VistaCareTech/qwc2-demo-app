@@ -48,13 +48,13 @@
         ],
         "backgroundLayers": [
             {
-              "name": "bluemarble",
-              "printLayer": "bluemarble_bg",
+              "name": "mapnik",
+              "printLayer": "osm_bg",
               "visibility": true
             },
             {
-              "name": "mapnik",
-              "printLayer": "osm_bg"
+              "name": "bluemarble",
+              "printLayer": "bluemarble_bg"
             }
         ],
         "searchProviders": [
@@ -168,7 +168,7 @@
         },
         {
           "type": "wmts",
-          "url": "http://www.google.cn/maps/vt?lyrs=s@189&gl=cn&x={x}&y={y}&z={z}",
+          "url": "http://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief/default/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.jpeg",
           "title": "Blue Marble",
           "name": "bluemarble",
           "tileMatrixPrefix": "",
