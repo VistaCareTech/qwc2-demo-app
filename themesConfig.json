@@ -48,9 +48,13 @@
         ],
         "backgroundLayers": [
             {
-              "name": "mapnik",
+              "name": "Satellite",
               "printLayer": "osm_bg",
               "visibility": true
+            },
+            {
+              "name": "mapnik",
+              "printLayer": "osm_bg"
             },
             {
               "name": "bluemarble",
@@ -91,6 +95,11 @@
             "Title": "OpenStreetMap contributors",
             "OnlineResource": "https://www.openstreetmap.org/copyright"
           }
+        },
+        {
+          "name": "Satellite",
+          "type": "xyz",
+          "url":"http://mt0.google.com/vt/lyrs=s&hl=en&x={x}&y={y}&z={z}"
         },
         {
           "name": "Night2012",
