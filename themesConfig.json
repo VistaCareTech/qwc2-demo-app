@@ -168,7 +168,7 @@
         },
         {
           "type": "wmts",
-          "url": "http://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief/default/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.jpeg",
+          "url": "http://www.google.cn/maps/vt?lyrs=s@189&gl=cn&x={x}&y={y}&z={z}",
           "title": "Blue Marble",
           "name": "bluemarble",
           "tileMatrixPrefix": "",
